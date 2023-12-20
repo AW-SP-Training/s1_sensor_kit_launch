@@ -5,7 +5,7 @@
     <push-ros-namespace namespace="imu"/>
 
     <include file="$(find-pkg-share microstrain_inertial_driver)/launch/microstrain_launch.py">
-      <arg name="params_file" value="$(find-pkg-share adelie_sensor_kit_launch)/config/microstrain.yaml" />
+      <arg name="params_file" value="$(find-pkg-share s1_sensor_kit_launch)/config/microstrain.yaml" />
       <arg name="namespace" value="/sensing/imu" />
       <arg name="configure" value="true" />
       <arg name="activate" value="true" />
